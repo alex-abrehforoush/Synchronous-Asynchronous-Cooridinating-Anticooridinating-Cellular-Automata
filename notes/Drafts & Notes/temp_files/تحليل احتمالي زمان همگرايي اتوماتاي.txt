@@ -1,0 +1,8 @@
+تحليل احتمالي زمان همگرايي اتوماتاي سلولي بدوي متناهي با ديناميك همزمان و ناهماهنگ
+
+
+Probabilistic analysis of the relaxation time of a synchronous anti-coordinating dynamic of elementary finite cellular automata
+
+هدف این پروژه اثبات و کشف "شرایط مناسب" برای یک اتوماتای ​​سلولی نا هماهنگ سنکرون برای همگرایی به یک پیکربندی پایدار در زمان چند جمله‌ای است. اتوماتای ​​سلولی معمولاً برای مدل‌سازی سیستم‌هایی استفاده می‌شود که دارای تعداد زیادی عناصر متقابل هستند. مانند عوامل در اقتصاد، ذرات در فیزیک، پروتئین‌ها در زیست‌شناسی و سیستم‌های توزیع‌شده. شرایط احتمالی مناسب به قوانین انتقال و احتمال مستقل سلول‌ها اشاره دارد که استراتژی‌های خود را در رابطه با همسایگان خود تغییر می‌دهند. هدف خاص ما تعیین یک تابع لیاپانوف خاص است که دینامیک ما را قادر می‌سازد تا به یک پیکربندی پایدار در زمان چند جمله‌ای به لحاظ امید ریاضی دست یابیم.
+
+The aim of this project is to prove and discover "proper conditions" for a synchronous anti-coordinating cellular automata to converge to a stable configuration in polynomial time. Cellular automata are commonly used to model systems that have a large number of interacting elements, such as agents in the economy, particles in physics, proteins in biology, and distributed systems. The appropriate probabilistic conditions refer to the transition rules and the independent probability of cells altering their strategies concerning those of their neighbors. Our specific objective is to determine a certain Lyapunov function that will enable our dynamic to achieve a stable configuration in polynomial time on expectation.
