@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.27)  5 AUG 2023 09:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.27)  6 AUG 2023 20:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Synchronous.tex
-(./Synchronous.tex
+**main.tex
+(./main.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
 (c:/texlive/2021/texmf-dist/tex/latex/base/book.cls
@@ -482,8 +482,8 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count294
 \l__pdf_internal_box=\box65
 )
-No file Synchronous.aux.
-\openout1 = `Synchronous.aux'.
+No file main.aux.
+\openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
@@ -521,11 +521,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<figures/pic2.jpg, id=4, 444.4605pt x 420.97275pt>
-File: figures/pic2.jpg Graphic file (type jpg)
-<use figures/pic2.jpg>
-Package pdftex.def Info: figures/pic2.jpg  used on input line 95.
-(pdftex.def)             Requested size: 187.89912pt x 177.97pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
 
 
@@ -543,240 +538,268 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 96
 
 (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-<figures/sync.jpg, id=5, 444.4605pt x 420.97275pt>
+) [1
+
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<figures/3.jpg, id=19, 444.4605pt x 420.97275pt>
+File: figures/3.jpg Graphic file (type jpg)
+<use figures/3.jpg>
+Package pdftex.def Info: figures/3.jpg  used on input line 204.
+(pdftex.def)             Requested size: 187.89912pt x 177.97pt.
+ [2 <./figures/3.jpg>]
+Overfull \hbox (15.04654pt too wide) detected at line 276
+[]
+ []
+
+[3]
+<figures/pic2.jpg, id=30, 444.4605pt x 420.97275pt>
+File: figures/pic2.jpg Graphic file (type jpg)
+<use figures/pic2.jpg>
+Package pdftex.def Info: figures/pic2.jpg  used on input line 285.
+(pdftex.def)             Requested size: 187.89912pt x 177.97pt.
+<figures/m.arcs.jpg, id=31, 444.4605pt x 420.97275pt>
+File: figures/m.arcs.jpg Graphic file (type jpg)
+<use figures/m.arcs.jpg>
+Package pdftex.def Info: figures/m.arcs.jpg  used on input line 349.
+(pdftex.def)             Requested size: 187.89912pt x 177.97pt.
+ [4 <./figures/pic2.jpg>] [5 <./figures/m.arcs.jpg>] [6] [7]
+File: figures/pic2.jpg Graphic file (type jpg)
+<use figures/pic2.jpg>
+Package pdftex.def Info: figures/pic2.jpg  used on input line 513.
+(pdftex.def)             Requested size: 187.89912pt x 177.97pt.
+<figures/sync.jpg, id=46, 444.4605pt x 420.97275pt>
 File: figures/sync.jpg Graphic file (type jpg)
 <use figures/sync.jpg>
-Package pdftex.def Info: figures/sync.jpg  used on input line 101.
+Package pdftex.def Info: figures/sync.jpg  used on input line 519.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
 
-Overfull \hbox (15.88893pt too wide) in paragraph at lines 192--193
+Overfull \hbox (15.88893pt too wide) in paragraph at lines 610--611
  [][] 
  []
 
-[1
 
-{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figures/pic2.
-jpg> <./figures/sync.jpg>] [2] [3]
-<figures/n60.jpg, id=27, 444.4605pt x 420.97275pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./figures/sync.jpg>] [9] [10]
+<figures/n60.jpg, id=56, 444.4605pt x 420.97275pt>
 File: figures/n60.jpg Graphic file (type jpg)
 <use figures/n60.jpg>
-Package pdftex.def Info: figures/n60.jpg  used on input line 227.
+Package pdftex.def Info: figures/n60.jpg  used on input line 642.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
-<figures/n61.jpg, id=28, 444.4605pt x 420.97275pt>
+<figures/n61.jpg, id=57, 444.4605pt x 420.97275pt>
 File: figures/n61.jpg Graphic file (type jpg)
 <use figures/n61.jpg>
-Package pdftex.def Info: figures/n61.jpg  used on input line 243.
-(pdftex.def)             Requested size: 187.89912pt x 177.97pt.
- [4 <./figures/n60.jpg> <./figures/n61.jpg>]
-<figures/n62.jpg, id=33, 444.4605pt x 420.97275pt>
-File: figures/n62.jpg Graphic file (type jpg)
-<use figures/n62.jpg>
-Package pdftex.def Info: figures/n62.jpg  used on input line 259.
+Package pdftex.def Info: figures/n61.jpg  used on input line 658.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
 
-Overfull \hbox (14.98746pt too wide) detected at line 290
+Underfull \vbox (badness 8170) has occurred while \output is active []
+
+ [11 <./figures/n60.jpg> <./figures/n61.jpg>]
+<figures/n62.jpg, id=61, 444.4605pt x 420.97275pt>
+File: figures/n62.jpg Graphic file (type jpg)
+<use figures/n62.jpg>
+Package pdftex.def Info: figures/n62.jpg  used on input line 674.
+(pdftex.def)             Requested size: 187.89912pt x 177.97pt.
+
+Overfull \hbox (14.98746pt too wide) detected at line 705
 []
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./figures/n62.jpg>]
-<figures/sync_pure_increase_2.jpg, id=37, 444.4605pt x 420.97275pt>
+ [12 <./figures/n62.jpg>]
+<figures/sync_pure_increase_2.jpg, id=65, 444.4605pt x 420.97275pt>
 File: figures/sync_pure_increase_2.jpg Graphic file (type jpg)
 <use figures/sync_pure_increase_2.jpg>
-Package pdftex.def Info: figures/sync_pure_increase_2.jpg  used on input line 3
-08.
+Package pdftex.def Info: figures/sync_pure_increase_2.jpg  used on input line 7
+23.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
- [6 <./figures/sync_pure_increase_2.jpg>]
-Overfull \hbox (3.35754pt too wide) in paragraph at lines 362--456
+ [13 <./figures/sync_pure_increase_2.jpg>]
+Overfull \hbox (3.35754pt too wide) in paragraph at lines 777--871
 [] \OT1/cmr/m/n/10 we sim-plify
  []
 
-[7]
-<figures/sync_pure_increase_general.jpg, id=45, 444.4605pt x 420.97275pt>
+[14]
+<figures/sync_pure_increase_general.jpg, id=73, 444.4605pt x 420.97275pt>
 File: figures/sync_pure_increase_general.jpg Graphic file (type jpg)
 <use figures/sync_pure_increase_general.jpg>
 Package pdftex.def Info: figures/sync_pure_increase_general.jpg  used on input 
-line 502.
+line 917.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
-<figures/sync_pure_increase_1.jpg, id=46, 444.4605pt x 420.97275pt>
+<figures/sync_pure_increase_1.jpg, id=74, 444.4605pt x 420.97275pt>
 File: figures/sync_pure_increase_1.jpg Graphic file (type jpg)
 <use figures/sync_pure_increase_1.jpg>
-Package pdftex.def Info: figures/sync_pure_increase_1.jpg  used on input line 5
-12.
+Package pdftex.def Info: figures/sync_pure_increase_1.jpg  used on input line 9
+27.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8 <./figures/sync_pure_increase_general.jpg>]
+ [15 <./figures/sync_pure_increase_general.jpg>]
 File: figures/sync_pure_increase_2.jpg Graphic file (type jpg)
 <use figures/sync_pure_increase_2.jpg>
-Package pdftex.def Info: figures/sync_pure_increase_2.jpg  used on input line 5
-26.
+Package pdftex.def Info: figures/sync_pure_increase_2.jpg  used on input line 9
+41.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
- [9 <./figures/sync_pure_increase_1.jpg>]
-<figures/sync_pure_increase_3.jpg, id=53, 444.4605pt x 420.97275pt>
+ [16 <./figures/sync_pure_increase_1.jpg>]
+<figures/sync_pure_increase_3.jpg, id=81, 444.4605pt x 420.97275pt>
 File: figures/sync_pure_increase_3.jpg Graphic file (type jpg)
 <use figures/sync_pure_increase_3.jpg>
-Package pdftex.def Info: figures/sync_pure_increase_3.jpg  used on input line 5
-49.
+Package pdftex.def Info: figures/sync_pure_increase_3.jpg  used on input line 9
+61.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
-<figures/equation_1.jpg, id=54, 319.79475pt x 348.1005pt>
+<figures/equation_1.jpg, id=82, 319.79475pt x 348.1005pt>
 File: figures/equation_1.jpg Graphic file (type jpg)
 <use figures/equation_1.jpg>
-Package pdftex.def Info: figures/equation_1.jpg  used on input line 589.
+Package pdftex.def Info: figures/equation_1.jpg  used on input line 1001.
 (pdftex.def)             Requested size: 469.75499pt x 511.35101pt.
 
-Underfull \vbox (badness 5504) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10 <./figures/sync_pure_increase_3.jpg>]
-<figures/equation_2.jpg, id=58, 209.583pt x 177.0615pt>
+ [17 <./figures/sync_pure_increase_3.jpg>]
+<figures/equation_2.jpg, id=86, 209.583pt x 177.0615pt>
 File: figures/equation_2.jpg Graphic file (type jpg)
 <use figures/equation_2.jpg>
-Package pdftex.def Info: figures/equation_2.jpg  used on input line 595.
+Package pdftex.def Info: figures/equation_2.jpg  used on input line 1007.
 (pdftex.def)             Requested size: 469.75499pt x 396.89867pt.
-<figures/equation_3.jpg, id=59, 317.38576pt x 107.2005pt>
+<figures/equation_3.jpg, id=87, 317.38576pt x 107.2005pt>
 File: figures/equation_3.jpg Graphic file (type jpg)
 <use figures/equation_3.jpg>
-Package pdftex.def Info: figures/equation_3.jpg  used on input line 600.
+Package pdftex.def Info: figures/equation_3.jpg  used on input line 1012.
 (pdftex.def)             Requested size: 469.75499pt x 158.66896pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11 <./figures/equation_1.jpg>]
-<figures/equation_4.jpg, id=63, 240.29774pt x 138.5175pt>
+ [18 <./figures/equation_1.jpg>]
+<figures/equation_4.jpg, id=91, 240.29774pt x 138.5175pt>
 File: figures/equation_4.jpg Graphic file (type jpg)
 <use figures/equation_4.jpg>
-Package pdftex.def Info: figures/equation_4.jpg  used on input line 605.
+Package pdftex.def Info: figures/equation_4.jpg  used on input line 1017.
 (pdftex.def)             Requested size: 469.75499pt x 270.80339pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./figures/equation_2.jpg> <./figures/equation_3.jpg>]
-<figures/Sync_base_general.jpg, id=67, 444.4605pt x 420.97275pt>
+ [19 <./figures/equation_2.jpg> <./figures/equation_3.jpg>]
+<figures/Sync_base_general.jpg, id=96, 444.4605pt x 420.97275pt>
 File: figures/Sync_base_general.jpg Graphic file (type jpg)
 <use figures/Sync_base_general.jpg>
-Package pdftex.def Info: figures/Sync_base_general.jpg  used on input line 612.
-
+Package pdftex.def Info: figures/Sync_base_general.jpg  used on input line 1024
+.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13 <./figures/equation_4.jpg> <./figures/Sync_base_general.jpg>] [14]
-<figures/s1.jpg, id=75, 444.4605pt x 420.97275pt>
+ [20 <./figures/equation_4.jpg> <./figures/Sync_base_general.jpg>] [21]
+<figures/s1.jpg, id=103, 444.4605pt x 420.97275pt>
 File: figures/s1.jpg Graphic file (type jpg)
 <use figures/s1.jpg>
-Package pdftex.def Info: figures/s1.jpg  used on input line 657.
+Package pdftex.def Info: figures/s1.jpg  used on input line 1066.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
-<figures/s2.jpg, id=76, 444.4605pt x 420.97275pt>
+<figures/s2.jpg, id=104, 444.4605pt x 420.97275pt>
 File: figures/s2.jpg Graphic file (type jpg)
 <use figures/s2.jpg>
-Package pdftex.def Info: figures/s2.jpg  used on input line 662.
+Package pdftex.def Info: figures/s2.jpg  used on input line 1071.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15 <./figures/s1.jpg> <./figures/s2.jpg>] [16]
-<figures/lower_bound.jpg, id=83, 221.02576pt x 191.5155pt>
+ [22 <./figures/s1.jpg> <./figures/s2.jpg>]
+<figures/lower_bound.jpg, id=108, 221.02576pt x 191.5155pt>
 File: figures/lower_bound.jpg Graphic file (type jpg)
 <use figures/lower_bound.jpg>
-Package pdftex.def Info: figures/lower_bound.jpg  used on input line 723.
+Package pdftex.def Info: figures/lower_bound.jpg  used on input line 1129.
 (pdftex.def)             Requested size: 328.82706pt x 284.95514pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17 <./figures/lower_bound.jpg>]
-<figures/matfig1.jpg, id=87, 1927.2pt x 929.4725pt>
+ [23 <./figures/lower_bound.jpg>]
+<figures/matfig1.jpg, id=112, 1927.2pt x 929.4725pt>
 File: figures/matfig1.jpg Graphic file (type jpg)
 <use figures/matfig1.jpg>
-Package pdftex.def Info: figures/matfig1.jpg  used on input line 738.
+Package pdftex.def Info: figures/matfig1.jpg  used on input line 1144.
 (pdftex.def)             Requested size: 469.75499pt x 226.55269pt.
-<figures/matfig2.jpg, id=88, 1927.2pt x 929.4725pt>
+<figures/matfig2.jpg, id=113, 1927.2pt x 929.4725pt>
 File: figures/matfig2.jpg Graphic file (type jpg)
 <use figures/matfig2.jpg>
-Package pdftex.def Info: figures/matfig2.jpg  used on input line 743.
+Package pdftex.def Info: figures/matfig2.jpg  used on input line 1149.
 (pdftex.def)             Requested size: 469.75499pt x 226.55269pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18 <./figures/matfig1.jpg>]
-<figures/arc decomposition.jpg, id=92, 444.4605pt x 420.97275pt>
+ [24 <./figures/matfig1.jpg>]
+<figures/arc decomposition.jpg, id=117, 444.4605pt x 420.97275pt>
 File: figures/arc decomposition.jpg Graphic file (type jpg)
 <use figures/arc decomposition.jpg>
-Package pdftex.def Info: figures/arc decomposition.jpg  used on input line 759.
-
+Package pdftex.def Info: figures/arc decomposition.jpg  used on input line 1165
+.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
- [19 <./figures/matfig2.jpg> <./figures/arc decomposition.jpg>]
+ [25 <./figures/matfig2.jpg> <./figures/arc decomposition.jpg>]
 File: figures/arc decomposition.jpg Graphic file (type jpg)
 <use figures/arc decomposition.jpg>
-Package pdftex.def Info: figures/arc decomposition.jpg  used on input line 783.
-
+Package pdftex.def Info: figures/arc decomposition.jpg  used on input line 1189
+.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
-<figures/arcs sticking.jpg, id=97, 444.4605pt x 420.97275pt>
+<figures/arcs sticking.jpg, id=122, 444.4605pt x 420.97275pt>
 File: figures/arcs sticking.jpg Graphic file (type jpg)
 <use figures/arcs sticking.jpg>
-Package pdftex.def Info: figures/arcs sticking.jpg  used on input line 807.
+Package pdftex.def Info: figures/arcs sticking.jpg  used on input line 1213.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
- [20]
-<figures/arc increase.jpg, id=102, 444.4605pt x 420.97275pt>
+ [26]
+<figures/arc increase.jpg, id=126, 444.4605pt x 420.97275pt>
 File: figures/arc increase.jpg Graphic file (type jpg)
 <use figures/arc increase.jpg>
-Package pdftex.def Info: figures/arc increase.jpg  used on input line 833.
+Package pdftex.def Info: figures/arc increase.jpg  used on input line 1239.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21 <./figures/arcs sticking.jpg>] [22 <./figures/arc increase.jpg>]
-<figures/t0.jpg, id=110, 444.4605pt x 420.97275pt>
+ [27 <./figures/arcs sticking.jpg>] [28 <./figures/arc increase.jpg>]
+<figures/t0.jpg, id=134, 444.4605pt x 420.97275pt>
 File: figures/t0.jpg Graphic file (type jpg)
 <use figures/t0.jpg>
-Package pdftex.def Info: figures/t0.jpg  used on input line 873.
+Package pdftex.def Info: figures/t0.jpg  used on input line 1276.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
-<figures/lemma.a.jpg, id=111, 444.4605pt x 420.97275pt>
+<figures/lemma.a.jpg, id=135, 444.4605pt x 420.97275pt>
 File: figures/lemma.a.jpg Graphic file (type jpg)
 <use figures/lemma.a.jpg>
-Package pdftex.def Info: figures/lemma.a.jpg  used on input line 888.
+Package pdftex.def Info: figures/lemma.a.jpg  used on input line 1291.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
-<figures/lemma.b.jpg, id=112, 444.4605pt x 420.97275pt>
+<figures/lemma.b.jpg, id=136, 444.4605pt x 420.97275pt>
 File: figures/lemma.b.jpg Graphic file (type jpg)
 <use figures/lemma.b.jpg>
-Package pdftex.def Info: figures/lemma.b.jpg  used on input line 893.
+Package pdftex.def Info: figures/lemma.b.jpg  used on input line 1296.
 (pdftex.def)             Requested size: 187.89912pt x 177.97pt.
+ [29 <./figures/t0.jpg> <./figures/lemma.a.jpg>] [30 <./figures/lemma.b.jpg>] [
+31] (./main.aux)
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
- [23 <./figures/t0.jpg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24 <./figures/lemma.a.jpg> <./figures/lemma.b.jpg>] [25] (./Synchronous.aux) 
-) 
+ ) 
 Here is how much of TeX's memory you used:
- 14350 strings out of 478994
- 282091 string characters out of 5862207
- 594929 words of memory out of 5000000
- 31538 multiletter control sequences out of 15000+600000
+ 14484 strings out of 478994
+ 284253 string characters out of 5862207
+ 596502 words of memory out of 5000000
+ 31670 multiletter control sequences out of 15000+600000
  417240 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,21n,89p,725b,879s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texl
-ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
-.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/t
-exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2021
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti10.pfb>
-Output written on Synchronous.pdf (25 pages, 1437109 bytes).
+ 87i,22n,89p,718b,965s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/202
+1/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/
+msbm10.pfb>
+Output written on main.pdf (31 pages, 1569083 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
+ 199 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
