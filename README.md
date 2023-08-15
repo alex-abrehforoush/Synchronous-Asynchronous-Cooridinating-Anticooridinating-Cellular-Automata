@@ -1,7 +1,7 @@
 <!-- <p align="center"> 
   <img src="gif/Pacman Logo2.jpg" alt="Pacman Logo" width="80px" height="80px">
 </p> -->
-<h1 align="center"> Imageful </h1>
+<h1 align="center"> Synchronous/Asynchronous Cooridinating/Anticooridinating Cellular Automata </h1>
 <h3 align="center"> COMP 1730460 - Foundations of Computer Vision </h3>
 <h5 align="center"> Course Final Project - <a href="https://english.iut.ac.ir/">Isfahan University of Technology</a> (Summer 2022) </h5>
 
@@ -36,9 +36,12 @@
 <h2 id="about-the-project"> 📝 About The Project</h2>
 
 <p align="justify">
-  Display devices come with varying resolutions and aspect ratios, necessitating the resizing of images to fit these different screens properly. Also, it is important to protect the critical content of the images and prevent distortions as much as possible in resized images. Content-Aware Image Retargeting (CAIR) techniques provide a promising solution to this ongoing challenge. The process of CAIR involves altering the resolution and aspect ratio of images to address these essential aspects as effectively as possible. This adaptation is achieved by adhering to geometric constraints and adopting a content-aware approach.
-  
-  "Imageful" is a content-aware image retargeting project implemented as final project for the Foundations of Computer Vision course. It intelligently resizes images while preserving their essential content and visual appeal. With its innovative approach, Imageful ensures that crucial elements in the most of the images remain undistorted during resizing, making it a valuable tool for various multimedia applications.
+Consider $$n$$ agents on a ring, labeled by $1,\ldots, n$. 
+Each agent plays either of the strategies $A$ or $B$ over time $t=0,1,\ldots$.
+At each time $t$, a single agent becomes active to update its strategy: If its strategy is different from those of its neighbors, she is \emph{equilibrium}; otherwise, she switches.
+The activation of the agents follows a stochastic process, determined by the i.i.d. multinomial random variables $I_0,I_1,\ldots\in\{1,\ldots,n\}$ with mean $p$, where $I_t$ is the active agent at time $t$.
+We are interested in finding the expected time until the network reaches an equilibrium. 
+Stack all agents' configuration into the vector $\x = [x_1,\ldots,x_n]$ where $x_i$ denotes the strategy of agent $i$
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
