@@ -3,17 +3,11 @@
 </p> -->
 <h1 align="center"> Synchronous/Asynchronous Cooridinating/Anticooridinating Cellular Automata </h1>
 <h3 align="center"> COMP 1730460 - Foundations of Computer Vision </h3>
-<h5 align="center"> Course Final Project - <a href="https://english.iut.ac.ir/">Isfahan University of Technology</a> (Summer 2022) </h5>
+<h5 align="center"> Internship - <a href="https://english.iut.ac.ir/">Isfahan University of Technology</a> (Winter & Spring 2023) </h5>
 
-<!-- <p align="center"> 
-  <img src="gif/Diana.png" alt="Image of Diana" height="427px" width="427px">
-</p> -->
-
-<div style="display: flex; justify-content: center;">
-  <img src="gif/Diana.png" alt="Image of Diana" height="427px" width="427px">
-  <span style="margin: 0 10px; display: flex; justify-content: center; align-items: center;"> </span>
-  <img src="gif/Diana_50_percent.png" alt="Image of Diana" height="427px" width="214px">
-</div>
+<p align="center"> 
+  <img src="notes/Drafts & Notes/temp_files/general.jpg" alt="Image of Diana" height="427px" width="427px">
+</p>
 
 <!-- TABLE OF CONTENTS -->
 <h2 id="table-of-contents"> 📖 Table of Contents</h2>
@@ -36,12 +30,20 @@
 <h2 id="about-the-project"> 📝 About The Project</h2>
 
 <p align="justify">
-Consider $$n$$ agents on a ring, labeled by $1,\ldots, n$. 
+\documentclass{article} 
+\usepackage{tikz} 
+\begin{document} 
+\begin{tikzpicture}[main/.style = {draw, circle}] 
+\node[main] (1) {$x_1$}; 
+\end{tikzpicture} 
+\end{document}
+
+Consider $n$ agents on a ring, labeled by $1,\ldots, n$. 
 Each agent plays either of the strategies $A$ or $B$ over time $t=0,1,\ldots$.
 At each time $t$, a single agent becomes active to update its strategy: If its strategy is different from those of its neighbors, she is \emph{equilibrium}; otherwise, she switches.
 The activation of the agents follows a stochastic process, determined by the i.i.d. multinomial random variables $I_0,I_1,\ldots\in\{1,\ldots,n\}$ with mean $p$, where $I_t$ is the active agent at time $t$.
 We are interested in finding the expected time until the network reaches an equilibrium. 
-Stack all agents' configuration into the vector $\x = [x_1,\ldots,x_n]$ where $x_i$ denotes the strategy of agent $i$
+Stack all agents' configuration into the vector $\x = [x_1,\ldots,x_n]$ where $x_i$ denotes the strategy of agent $i$.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
