@@ -17,8 +17,7 @@
   <ol>
     <li><a href="#about-the-problem"> ➤ About The Problem</a></li>
     <li><a href="#project-files-and-folders-description"> ➤ Project Files and Folders Description</a></li>
-    <li><a href="#my-method"> ➤ My Method</a></li>
-    <li><a href="#results"> ➤ Results</a></li>
+    <li><a href="#our-approach"> ➤ Our Approach</a></li>
     <li><a href="#references"> ➤ References</a></li>
     <li><a href="#credits"> ➤ Credits</a></li>
   </ol>
@@ -43,8 +42,10 @@ We are interested in finding the expected time until the network reaches an equi
 <h2 id="project-files-and-folders-description"> 💾 Project Files and Folders Description</h2>
 
 <ul>
-  <li><b>cair.m</b> - Where all of the functions reside.</li>
-  <li><b>main.m</b> - The main file that runs the algorithm.</li>
+  <li><b>📁code</b> - Where the implementation the code of our third approach resides.</li>
+  <li><b>📁notes</b> - Includes the main.pdf file which the details of our approaches are documented. It also includes a "Draft & Notes" folder in which drafts and other temporary documents reside.</li>
+  <li><b>📁pic</b> - Where the images used in documents reside.</li>
+  <li><b>📁related papers</b> - Includes the mentioned papers reside.</li>
 </ul>
 
 <!-- <h3>Some other supporting files</h3>
@@ -66,78 +67,42 @@ We are interested in finding the expected time until the network reaches an equi
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) -->
 
-<!-- MY METHOD -->
-<h2 id="my-method"> 💡 My Method</h2>
+<!-- OUR APPROACH -->
+<h2 id="our-approach"> 💡 Our Approach</h2>
 
-<p align="justify"> 
-  As the classic seam carving algorithm was vulnerable to some properties of the images, such as the noisiness of the background and the existence of geometric structures, I modified the classic seam carving algorithm to make it convenient for a bigger group of images.
+<p align="justify">
 
-  Generally speaking, my method consists of two main parts: first, modification of the seam carving algorithm, and second, providing a new importance map, both of which enhance the overall visual result.
+In our pursuit of proving the polynomial nature of the expected relaxation time concerning the number of agents, denoted as $$n$$ we embarked on three primary approaches to substantiate this assertion. Regrettably, all of these endeavors ultimately met with failure.
 
-1.
-    While removing the seam having the least importance value in the importance map, it is sensible in the next iteration not to remove the seam containing adjacent pixels to the pixels of the removed seam in order to avoid distortions caused by the removal of adjacent seams. To handle this situation, I encountered that it would be beneficial to add a constant factor of the importance value of removed pixels to its adjacent ones. This trick works because in every iteration (respectively seam removal step), the seam with the minimum importance is chosen to be removed. So when we increase the importance of the pixels adjacent to the removed seam, it becomes more probable for the next seam not to consist of pixels adjacent to the previously removed seam. Therefore, in each iteration, I add 0.491/2 times x to each adjacent pixel's importance value on the right and left and 0.009/2 to each second-order adjacent importance value on the right and left.
+  1. Potential Function Analysis:
+    Our initial approach drew inspiration from the concept presented in [1]. We sought to establish a potential function, akin to the one delineated in [1], and endeavored to leverage "the probability of reaching equilibrium in the next step ($$p$$)" to derive an upper bound for the expected difference in the potential function across consecutive steps. Unfortunately, contrary to the configuration outlined in [1], there exists a scenario in which '$$p$$' can be zero. Consequently, this endeavor proved unsuccessful.
 
-2.
-    The importance map used in this method is calculated through a linear combination of the normalized depth map, saliency map, gradient magnitude, and the maximum of values obtained by applying two 3 by 3 diagonal Sobel operators regarding edges of 45 or 135 degrees. The importance map is obtained as follows:
- $$map_{importance} = 3 nrml(map_{depth}) + nrml(map_{saliency\:map}) + nrml(map_{gradient\:magnitude}) + 3 nrml(max(map_{45\:degree\:Sobel}, map_{135\:degree\:Sobel}))$$
+  2. Markov Chain Modeling:
+    In our second approach, we endeavored to model the problem as a Markov chain, with the aim of determining the expected hitting time for each state within our configuration. However, we encountered a significant challenge in adapting this approach to the synchronous version of the problem. Unlike the asynchronous version, where the random walker's possible next states are more manageable, the synchronous version presents a daunting multitude of potential states for the random walker's next move. As a result, the analysis of the problem using this approach became excessively complex and challenging to pursue. Consequently, this approach also proved unsuccessful.
+
+  3. Double-Quiescent Elementary Cellular Automata (DQECA):
+    Our third approach drew upon concepts introduced in [2], specifically those related to "Double-quiescent Elementary Cellular Automata." Our problem's configuration bore a resemblance to the DQECA designated as 'ABCFGH' in [2]. To explore this avenue, we implemented a code designed to compute the expected difference in the occurrences of a specified list of patterns in the subsequent iteration. Our hope was that these computed values would consistently exhibit non-positivity across all binary strings with a length equal to that of the longest pattern plus two. Unfortunately, this approach also fell short of our expectations, as certain strings exhibited positive expectations. 
+    
+  For additional details regarding the mentioned approaches and our implemented code, please consult the "main.pdf" and "final.ipynb" file located in the "notes" and "code" folders of this repository respectively.
+
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-
-<!-- Results -->
-<h2 id="results"> 🎉 Results</h2>
-
-<p align="justify"> 
-  After applying my method to the provided images, here are the corresponding outputs that demonstrate a 50% reduction in width.
-</p>
-
-<div style="display: flex; justify-content: center;">
-  <img src="gif/Baby.png" alt="Image of baby" height="200" width="200">
-  <span style="margin: 0 10px; display: flex; justify-content: center; align-items: center;">--------------></span>
-  <img src="gif/Baby_50_percent.png" alt="Image of baby" height="200" width="100px">
-</div>
-<div style="display: flex; justify-content: center;">
-  <img src="gif/Diana.png" alt="Image of Diana" height="200" width="200">
-  <span style="margin: 0 10px; display: flex; justify-content: center; align-items: center;">--------------></span>
-  <img src="gif/Diana_50_percent.png" alt="Image of Diana" height="200" width="100px">
-</div>
-<div style="display: flex; justify-content: center;">
-  <img src="gif/Dolls.png" alt="Image of dolls" height="200" width="200">
-  <span style="margin: 0 10px; display: flex; justify-content: center; align-items: center;">--------------></span>
-  <img src="gif/Dolls_50_percent.png" alt="Image of dolls" height="200" width="100px">
-</div>
-<div style="display: flex; justify-content: center;">
-  <img src="gif/Snowman.png" alt="Image of snowman" height="200" width="200">
-  <span style="margin: 0 10px; display: flex; justify-content: center; align-items: center;">--------------></span>
-  <img src="gif/Snowman_50_percent.png" alt="Image of snowman" height="200px" width="100px">
-</div>
-
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- <p>I have implemented the depth-first search (DFS) algorithm in the depthFirstSearch function in <code>search.py</code>.</p>
-<p>The Pacman will quickly find a solution via running the following commands:</p>
-
-<pre><code>$ python pacman.py -l tinyMaze -p SearchAgent</code></pre>
-<pre><code>$ python pacman.py -l mediumMaze -p SearchAgent</code></pre>
-<pre><code>$ python pacman.py -l bigMaze -z .5 -p SearchAgent</code></pre> -->
-
-<!-- <p align="center"> 
-<img src="gif/DFS.gif" alt="Animated gif DFS Algorithm" height="282px" width="637px">
-height="382px" width="737px"
-</p> -->
 
 
 <!-- REFERENCES -->
-<h2 id="References"> 🌏 References</h2>
+<h2 id="references"> 🌏 References</h2>
 
-[1] Asheghi, Bahareh, et al. "A comprehensive review on content-aware image retargeting: From classical to state-of-the-art methods." Signal Processing 195 (2022): 108496.
+[1]
+Proving a phase transition in cellular automata under asynchronous dynamics, Damien Regnault, 2012
+
+[2] Fatès, N., Regnault, D., Schabanel, N., Thierry, É. (2006). Asynchronous Behavior of Double-Quiescent Elementary Cellular Automata. In: Correa, J.R., Hevia, A., Kiwi, M. (eds) LATIN 2006: Theoretical Informatics. LATIN 2006. Lecture Notes in Computer Science, vol 3887. Springer, Berlin, Heidelberg. https://doi.org/10.1007/11682462_43
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- CREDITS -->
-<h2 id="Credits"> 📜 Credits</h2>
+<h2 id="credits"> 📜 Credits</h2>
+<a href="https://brocku.ca/mathematics-science/mathematics/directory/pouria-ramazi/">Prof. Pouria Ramazi</a>, Brock University
 
 Alireza Abrehforoush
 
