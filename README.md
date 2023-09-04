@@ -2,11 +2,11 @@
   <img src="gif/Pacman Logo2.jpg" alt="Pacman Logo" width="80px" height="80px">
 </p> -->
 <h1 align="center"> Synchronous/Asynchronous Cooridinating/Anticooridinating Cellular Automata </h1>
-<h3 align="center"> COMP 1730460 - Foundations of Computer Vision </h3>
-<h5 align="center"> Internship - <a href="https://english.iut.ac.ir/">Isfahan University of Technology</a> (Winter & Spring 2023) </h5>
+<h3 align="center"> COMP 1740357 - Internship </h3>
+<h5 align="center"> Internship Report - <a href="https://english.iut.ac.ir/">Isfahan University of Technology</a> (Winter & Spring 2023) </h5>
 
 <p align="center"> 
-  <img src="notes/Drafts & Notes/temp_files/general.jpg" alt="Image of Diana" height="427px" width="427px">
+  <img src="pic/general.jpg" alt="A sample of the to be discussed configuration" height="400" width="400">
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -15,8 +15,8 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project"> ➤ About The Project</a></li>
-    <li><a href="#project-files-description"> ➤ Project Files Description</a></li>
+    <li><a href="#about-the-problem"> ➤ About The Problem</a></li>
+    <li><a href="#project-files-and-folders-description"> ➤ Project Files and Folders Description</a></li>
     <li><a href="#my-method"> ➤ My Method</a></li>
     <li><a href="#results"> ➤ Results</a></li>
     <li><a href="#references"> ➤ References</a></li>
@@ -27,29 +27,20 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- ABOUT THE PROJECT -->
-<h2 id="about-the-project"> 📝 About The Project</h2>
+<h2 id="about-the-problem"> 📝 About The Problem</h2>
 
 <p align="justify">
-\documentclass{article} 
-\usepackage{tikz} 
-\begin{document} 
-\begin{tikzpicture}[main/.style = {draw, circle}] 
-\node[main] (1) {$x_1$}; 
-\end{tikzpicture} 
-\end{document}
-
 Consider $n$ agents on a ring, labeled by $1,\ldots, n$. 
 Each agent plays either of the strategies $A$ or $B$ over time $t=0,1,\ldots$.
-At each time $t$, a single agent becomes active to update its strategy: If its strategy is different from those of its neighbors, she is \emph{equilibrium}; otherwise, she switches.
+At each time $t$, a single agent becomes active to update its strategy; If its strategy is different from those of its neighbors, she is equilibrium; otherwise, she switches.
 The activation of the agents follows a stochastic process, determined by the i.i.d. multinomial random variables $I_0,I_1,\ldots\in\{1,\ldots,n\}$ with mean $p$, where $I_t$ is the active agent at time $t$.
-We are interested in finding the expected time until the network reaches an equilibrium. 
-Stack all agents' configuration into the vector $\x = [x_1,\ldots,x_n]$ where $x_i$ denotes the strategy of agent $i$.
+We are interested in finding the expected time until the network reaches an equilibrium.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- PROJECT FILES DESCRIPTION -->
-<h2 id="project-files-description"> 💾 Project Files Description</h2>
+<h2 id="project-files-and-folders-description"> 💾 Project Files and Folders Description</h2>
 
 <ul>
   <li><b>cair.m</b> - Where all of the functions reside.</li>
