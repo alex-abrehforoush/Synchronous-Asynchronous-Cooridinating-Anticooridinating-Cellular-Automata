@@ -3,7 +3,7 @@
 </p> -->
 <h1 align="center"> Synchronous/Asynchronous Cooridinating/Anticooridinating Cellular Automata </h1>
 <h3 align="center"> COMP 1740357 - Internship </h3>
-<h5 align="center"> Internship Report - <a href="https://english.iut.ac.ir/">Isfahan University of Technology</a> (Winter & Spring 2023) </h5>
+<h5 align="center"> Internship Report - <a href="https://english.iut.ac.ir/">Isfahan University of Technology</a> (Fall 2022 & Winter 2023) </h5>
 
 <p align="center"> 
   <img src="pic/general.jpg" alt="A sample of the to be discussed configuration" height="400" width="400">
